@@ -9,7 +9,7 @@ export const AnimeProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const API_URL = 'https://67f307feec56ec1a36d4c5d3.mockapi.io/api/:endpoint';
+  const API_URL = 'https://67f307feec56ec1a36d4c5d3.mockapi.io/api/animes';
 
   useEffect(() => {
     fetchAnimes();
@@ -18,7 +18,7 @@ export const AnimeProvider = ({ children }) => {
   const fetchAnimes = async () => {
     try {
       setLoading(true);
-      const response = await axios.get(`${API_URL}/animes`);
+      const response = await axios.get(API_URL);
       setAnimes(response.data);
       setError(null);
     } catch (err) {
