@@ -32,7 +32,7 @@ export const AnimeProvider = ({ children }) => {
 
   const getAnimeById = async (id) => {
     try {
-      const response = await axios.get(`${API_URL}/animes/${id}`);
+      const response = await axios.get(`${API_URL}/${id}`);
       return response.data;
     } catch (err) {
       toast.error('Error al obtener el anime');
@@ -43,7 +43,7 @@ export const AnimeProvider = ({ children }) => {
 
   const createAnime = async (animeData) => {
     try {
-      const response = await axios.post(`${API_URL}/animes`, animeData);
+      const response = await axios.post(API_URL, animeData);
       setAnimes([...animes, response.data]);
       toast.success('Anime agregado con éxito');
       return response.data;
@@ -56,7 +56,7 @@ export const AnimeProvider = ({ children }) => {
 
   const updateAnime = async (id, animeData) => {
     try {
-      const response = await axios.put(`${API_URL}/animes/${id}`, animeData);
+      const response = await axios.put(`${API_URL}/${id}`, animeData);
       setAnimes(animes.map(anime => anime.id === id ? response.data : anime));
       toast.success('Anime actualizado con éxito');
       return response.data;
@@ -69,7 +69,7 @@ export const AnimeProvider = ({ children }) => {
 
   const deleteAnime = async (id) => {
     try {
-      await axios.delete(`${API_URL}/animes/${id}`);
+      await axios.delete(`${API_URL}/${id}`);
       setAnimes(animes.filter(anime => anime.id !== id));
       toast.success('Anime eliminado con éxito');
       return true;
