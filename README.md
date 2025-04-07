@@ -115,7 +115,7 @@ Puedes ver una demo de la aplicación en:
 
 ## 👥 Autor
 
-- **[Tu Nombre]** - [GitHub](https://github.com/tu-usuario)
+- **Hecho con amor por Sofi <3** - [GitHub](https://github.com/sofimartin)
 
 ## 📄 Licencia
 
