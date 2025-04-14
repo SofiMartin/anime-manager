@@ -1,4 +1,3 @@
-// src/pages/AnimeDetail.jsx
 import { useState, useEffect, useContext } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { AnimeContext } from '../context/AnimeContext';

@@ -1,4 +1,3 @@
-// src/pages/AnimeEdit.jsx
 import { useState, useEffect, useContext } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { AnimeContext } from '../context/AnimeContext';

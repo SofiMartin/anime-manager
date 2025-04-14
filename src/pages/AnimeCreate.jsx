@@ -1,4 +1,3 @@
-// src/pages/AnimeCreate.jsx
 import { useState, useContext } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { AnimeContext } from '../context/AnimeContext';
