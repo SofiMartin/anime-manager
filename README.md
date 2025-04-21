@@ -97,21 +97,22 @@ La aplicación utiliza MockAPI para el backend. Los endpoints disponibles son:
 ## 📱 Capturas de Pantalla
 
 ### Página Principal
-![Página Principal](https://i.imgur.com/abc123.png)
-
-### Catálogo
-![Catálogo](https://i.imgur.com/def456.png)
+![Página Principal](https://github.com/user-attachments/assets/8131a407-4bbe-404f-8669-0be0187027eb)
 
 ### Detalle de Anime
-![Detalle](https://i.imgur.com/ghi789.png)
+![Detalle](https://github.com/user-attachments/assets/b525796d-f168-4f8a-8df0-2a77410b96f7)
 
 ### Formulario
-![Formulario](https://i.imgur.com/jkl012.png)
+![Formulario](https://github.com/user-attachments/assets/48432508-2f86-44e6-a1e6-9ec128388f5b)
+
+## Listado
+![Listado](https://github.com/user-attachments/assets/b77857eb-7c12-4785-a3da-38c050ab4e4c)
+
 
 ## 🌐 Demo en Vivo
 
 Puedes ver una demo de la aplicación en:
-[https://animeverse-demo.netlify.app](https://animeverse-demo.netlify.app)
+[https://animeverse-demo.netlify.app](https://animemanger.netlify.app/)
 
 ## 👥 Autor
 
