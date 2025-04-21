@@ -1,8 +1,8 @@
-import Approuter from "./router/Approuter";
+import AppRouter from "./router/Approuter";
 
 
 function App() {
-  return <Approuter />;
+  return <AppRouter />;
 
 }
 
