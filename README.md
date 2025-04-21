@@ -1,6 +1,6 @@
 # 🌟 AnimeVerse - Gestor de Animes
 
-![AnimeVerse](https://i.imgur.com/XYZ123.png)
+![AnimeVerse](https://github.com/user-attachments/assets/df54c461-a9c5-4966-b851-828297d34bc6)
 
 ## 📋 Descripción
 
